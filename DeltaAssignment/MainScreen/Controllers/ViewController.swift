@@ -14,10 +14,13 @@ class ViewController: UIViewController {
     // ****** Outlets ******* //
     @IBOutlet weak var tableView: UITableView!
     
+    //Properties
+    let navBar = Bundle.main.loadNibNamed("NavigationView", owner: self, options: nil)?.first as! NavigationView
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        setUpNavigationBar()
         tableView.delegate = self
         tableView.dataSource = self
         registerNibs()
@@ -27,7 +30,15 @@ class ViewController: UIViewController {
     func registerNibs(){
         tableView.register(UINib(nibName: "ViewOptionCell", bundle: Bundle.main), forCellReuseIdentifier: "ViewOptionCell")
     }
-
+    
+    func setUpNavigationBar(){
+        navBar.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 70)
+        navBar.backgroundColor = UIColor.init(red: 204/255, green: 229/255, blue: 84/255, alpha: 1.0)
+        navBar.backButton.isHidden = true
+        
+        navBar.title.text = "Delta Assignment"
+        self.view.addSubview(navBar)
+    }
 
 }
 

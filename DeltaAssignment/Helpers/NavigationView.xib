@@ -12,7 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" restorationIdentifier="NavigationView" id="PuN-RL-9Gp" customClass="NavigationView" customModule="OnboardApp" customModuleProvider="target">
+        <view contentMode="scaleToFill" restorationIdentifier="NavigationView" id="PuN-RL-9Gp" customClass="NavigationView" customModule="DeltaAssignment" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -39,6 +39,7 @@
                         </label>
                     </subviews>
                     <constraints>
+                        <constraint firstItem="aTZ-nS-cOz" firstAttribute="leading" secondItem="a5k-8o-ICr" secondAttribute="leading" constant="40" id="H13-OF-HGD"/>
                         <constraint firstAttribute="height" constant="60" id="mqC-nw-fNL"/>
                     </constraints>
                 </stackView>

@@ -61,7 +61,7 @@ class CarouselViewController: UIViewController {
     
     func setUpNavigationBar(){
         navBar.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 70)
-        navBar.backgroundColor = UIColor.init(red: 0, green: 168/255, blue: 107/255, alpha: 0.75)
+         navBar.backgroundColor = UIColor.init(red: 204/255, green: 229/255, blue: 84/255, alpha: 1.0)
         navBar.leftButtonAction = self.backAction
         navBar.title.text = "Carousel View"
         self.view.addSubview(navBar)
@@ -110,7 +110,6 @@ extension CarouselViewController: UICollectionViewDataSource{
         //Setting up cell
         cell?.setUpCell(imageUrl: profileData[indexPath.row].imageUrl, name: profileData[indexPath.row].name, email: profileData[indexPath.row].email)
         
-        print(cell?.emailLabel.text)
         
         return cell!
     }
