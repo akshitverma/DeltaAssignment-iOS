@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FF0F93DADED561DB1EB0629 /* Pods_DeltaAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E7F5AF9E07BF3B8DEE96D5 /* Pods_DeltaAssignment.framework */; };
+		D991EB7B208F7FF800A10741 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991EB7A208F7FF800A10741 /* ListViewController.swift */; };
+		D991EB7F208F809A00A10741 /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991EB7D208F809A00A10741 /* ListViewCell.swift */; };
+		D991EB80208F809A00A10741 /* ListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D991EB7E208F809A00A10741 /* ListViewCell.xib */; };
+		D991EB82208F8B5900A10741 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991EB81208F8B5900A10741 /* DataModel.swift */; };
+		D991EB84208FA79800A10741 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991EB83208FA79800A10741 /* CommonFunctions.swift */; };
+		D991EB86208FA84300A10741 /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991EB85208FA84300A10741 /* CarouselViewController.swift */; };
+		D991EB8A208FAB9D00A10741 /* CarouselViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991EB88208FAB9D00A10741 /* CarouselViewCell.swift */; };
+		D991EB8B208FAB9D00A10741 /* CarouselViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D991EB89208FAB9D00A10741 /* CarouselViewCell.xib */; };
+		D991EB8D20903B1700A10741 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991EB8C20903B1700A10741 /* NavigationView.swift */; };
+		D991EB8F20903B2A00A10741 /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D991EB8E20903B2A00A10741 /* NavigationView.xib */; };
 		D9B08048208F72BA0008AE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B08047208F72BA0008AE30 /* AppDelegate.swift */; };
 		D9B0804A208F72BA0008AE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B08049208F72BA0008AE30 /* ViewController.swift */; };
 		D9B0804D208F72BA0008AE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B0804B208F72BA0008AE30 /* Main.storyboard */; };
 		D9B08050208F72BA0008AE30 /* DeltaAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9B0804E208F72BA0008AE30 /* DeltaAssignment.xcdatamodeld */; };
 		D9B08052208F72BA0008AE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B08051208F72BA0008AE30 /* Assets.xcassets */; };
 		D9B08055208F72BA0008AE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B08053208F72BA0008AE30 /* LaunchScreen.storyboard */; };
+		D9B08062208F73E30008AE30 /* ViewOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B08060208F73E30008AE30 /* ViewOptionCell.swift */; };
+		D9B08063208F73E30008AE30 /* ViewOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9B08061208F73E30008AE30 /* ViewOptionCell.xib */; };
+		D9B0806B208F794C0008AE30 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B0806A208F794C0008AE30 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33DA7036A1B0D76D7141361D /* Pods-DeltaAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeltaAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeltaAssignment/Pods-DeltaAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		96E7F5AF9E07BF3B8DEE96D5 /* Pods_DeltaAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeltaAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D991EB7A208F7FF800A10741 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D991EB7D208F809A00A10741 /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		D991EB7E208F809A00A10741 /* ListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewCell.xib; sourceTree = "<group>"; };
+		D991EB81208F8B5900A10741 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		D991EB83208FA79800A10741 /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		D991EB85208FA84300A10741 /* CarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
+		D991EB88208FAB9D00A10741 /* CarouselViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewCell.swift; sourceTree = "<group>"; };
+		D991EB89208FAB9D00A10741 /* CarouselViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselViewCell.xib; sourceTree = "<group>"; };
+		D991EB8C20903B1700A10741 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		D991EB8E20903B2A00A10741 /* NavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationView.xib; sourceTree = "<group>"; };
 		D9B08044208F72BA0008AE30 /* DeltaAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeltaAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B08047208F72BA0008AE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9B08049208F72BA0008AE30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +50,10 @@
 		D9B08051208F72BA0008AE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9B08054208F72BA0008AE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9B08056208F72BA0008AE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B08060208F73E30008AE30 /* ViewOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOptionCell.swift; sourceTree = "<group>"; };
+		D9B08061208F73E30008AE30 /* ViewOptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewOptionCell.xib; sourceTree = "<group>"; };
+		D9B0806A208F794C0008AE30 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		FE7FAA738C5D86FEED29932E /* Pods-DeltaAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeltaAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeltaAssignment/Pods-DeltaAssignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF0F93DADED561DB1EB0629 /* Pods_DeltaAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		952143C28853684877F62BDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33DA7036A1B0D76D7141361D /* Pods-DeltaAssignment.debug.xcconfig */,
+				FE7FAA738C5D86FEED29932E /* Pods-DeltaAssignment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D991EB7C208F806E00A10741 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				D991EB7D208F809A00A10741 /* ListViewCell.swift */,
+				D991EB7E208F809A00A10741 /* ListViewCell.xib */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		D991EB87208FAB7400A10741 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				D991EB88208FAB9D00A10741 /* CarouselViewCell.swift */,
+				D991EB89208FAB9D00A10741 /* CarouselViewCell.xib */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
 		D9B0803B208F72BA0008AE30 = {
 			isa = PBXGroup;
 			children = (
 				D9B08046208F72BA0008AE30 /* DeltaAssignment */,
 				D9B08045208F72BA0008AE30 /* Products */,
+				952143C28853684877F62BDC /* Pods */,
+				DA14B5C7B801D50E6931D5DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +117,10 @@
 			isa = PBXGroup;
 			children = (
 				D9B08047208F72BA0008AE30 /* AppDelegate.swift */,
-				D9B08049208F72BA0008AE30 /* ViewController.swift */,
+				D9B0806A208F794C0008AE30 /* APIManager.swift */,
+				D9B0805D208F738E0008AE30 /* MainScreen */,
+				D9B08064208F77C20008AE30 /* DetailsScreen */,
+				D9B08068208F78860008AE30 /* Helpers */,
 				D9B0804B208F72BA0008AE30 /* Main.storyboard */,
 				D9B08051208F72BA0008AE30 /* Assets.xcassets */,
 				D9B08053208F72BA0008AE30 /* LaunchScreen.storyboard */,
@@ -67,6 +130,94 @@
 			path = DeltaAssignment;
 			sourceTree = "<group>";
 		};
+		D9B0805C208F734A0008AE30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9B08049208F72BA0008AE30 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9B0805D208F738E0008AE30 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D9B0805F208F73BC0008AE30 /* Model */,
+				D9B0805E208F73AA0008AE30 /* Views */,
+				D9B0805C208F734A0008AE30 /* Controllers */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		D9B0805E208F73AA0008AE30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9B08060208F73E30008AE30 /* ViewOptionCell.swift */,
+				D9B08061208F73E30008AE30 /* ViewOptionCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9B0805F208F73BC0008AE30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9B08064208F77C20008AE30 /* DetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D9B08067208F78610008AE30 /* Controller */,
+				D9B08066208F785B0008AE30 /* Views */,
+				D9B08065208F78520008AE30 /* Model */,
+			);
+			path = DetailsScreen;
+			sourceTree = "<group>";
+		};
+		D9B08065208F78520008AE30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D991EB81208F8B5900A10741 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9B08066208F785B0008AE30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D991EB87208FAB7400A10741 /* CarouselView */,
+				D991EB7C208F806E00A10741 /* ListView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9B08067208F78610008AE30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D991EB7A208F7FF800A10741 /* ListViewController.swift */,
+				D991EB85208FA84300A10741 /* CarouselViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9B08068208F78860008AE30 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D991EB83208FA79800A10741 /* CommonFunctions.swift */,
+				D991EB8C20903B1700A10741 /* NavigationView.swift */,
+				D991EB8E20903B2A00A10741 /* NavigationView.xib */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DA14B5C7B801D50E6931D5DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96E7F5AF9E07BF3B8DEE96D5 /* Pods_DeltaAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9B08059208F72BA0008AE30 /* Build configuration list for PBXNativeTarget "DeltaAssignment" */;
 			buildPhases = (
+				40DD3351564058C2EDC3BBE7 /* [CP] Check Pods Manifest.lock */,
 				D9B08040208F72BA0008AE30 /* Sources */,
 				D9B08041208F72BA0008AE30 /* Frameworks */,
 				D9B08042208F72BA0008AE30 /* Resources */,
+				CFF38521BD9EE42075F8BF00 /* [CP] Embed Pods Frameworks */,
+				233EBE97C25B483C99DEDC89 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,20 +282,91 @@
 			files = (
 				D9B08055208F72BA0008AE30 /* LaunchScreen.storyboard in Resources */,
 				D9B08052208F72BA0008AE30 /* Assets.xcassets in Resources */,
+				D991EB80208F809A00A10741 /* ListViewCell.xib in Resources */,
 				D9B0804D208F72BA0008AE30 /* Main.storyboard in Resources */,
+				D991EB8B208FAB9D00A10741 /* CarouselViewCell.xib in Resources */,
+				D9B08063208F73E30008AE30 /* ViewOptionCell.xib in Resources */,
+				D991EB8F20903B2A00A10741 /* NavigationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		233EBE97C25B483C99DEDC89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeltaAssignment/Pods-DeltaAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40DD3351564058C2EDC3BBE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeltaAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFF38521BD9EE42075F8BF00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DeltaAssignment/Pods-DeltaAssignment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeltaAssignment/Pods-DeltaAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9B08040208F72BA0008AE30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D991EB86208FA84300A10741 /* CarouselViewController.swift in Sources */,
+				D991EB84208FA79800A10741 /* CommonFunctions.swift in Sources */,
 				D9B08050208F72BA0008AE30 /* DeltaAssignment.xcdatamodeld in Sources */,
 				D9B0804A208F72BA0008AE30 /* ViewController.swift in Sources */,
+				D991EB7B208F7FF800A10741 /* ListViewController.swift in Sources */,
+				D9B0806B208F794C0008AE30 /* APIManager.swift in Sources */,
+				D991EB8A208FAB9D00A10741 /* CarouselViewCell.swift in Sources */,
 				D9B08048208F72BA0008AE30 /* AppDelegate.swift in Sources */,
+				D991EB82208F8B5900A10741 /* DataModel.swift in Sources */,
+				D9B08062208F73E30008AE30 /* ViewOptionCell.swift in Sources */,
+				D991EB8D20903B1700A10741 /* NavigationView.swift in Sources */,
+				D991EB7F208F809A00A10741 /* ListViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +501,7 @@
 		};
 		D9B0805A208F72BA0008AE30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DA7036A1B0D76D7141361D /* Pods-DeltaAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +517,7 @@
 		};
 		D9B0805B208F72BA0008AE30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7FAA738C5D86FEED29932E /* Pods-DeltaAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
